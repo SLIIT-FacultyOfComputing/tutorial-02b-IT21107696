@@ -12,7 +12,7 @@ Type = 3
 OtRate = 1700
 Please Note that the input command in C++ is std::cin. This is a representation of the Keyboard.*/
 
-#include <stdio.h>
+/*#include <stdio.h>
 int main()
 {
    double salary, netSalary;
@@ -41,4 +41,20 @@ int main()
    printf("Net Salary is %f ", netSalary);
   
    return 0;
+}*/
+
+#include <iostream>
+int main()
+{
+    float cm , inches;
+    
+    std::cout << "Enter a length in cm :";
+    std::cin >> cm;
+    
+    inches = cm / 2.54;
+
+    std::cout << "length in inches is " <<inches << std::endl;
+    
+    return 0;
+
 }
